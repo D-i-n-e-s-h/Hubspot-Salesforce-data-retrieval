@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>POC_dotnet</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DeveloperForce.Force" Version="2.1.0" />
+    <PackageReference Include="IdentityModel" Version="6.0.0" />
+    <PackageReference Include="IdentityServer4" Version="4.1.2" />
+    <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="3.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.2" />
+    <PackageReference Include="MongoDB.Driver" Version="2.14.1" />
+    <PackageReference Include="RestSharp" Version="107.3.0" />
+    <PackageReference Include="SquaredUp.HubSpot.NET" Version="0.6.17" />
+  </ItemGroup>
+
+
+</Project>
